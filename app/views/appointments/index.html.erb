@@ -1,6 +1,6 @@
 <h1>Your Appointments</h1> 
 <br>
 <% @appointments.each do |app| %>
-    <%= link_to app.date, appointment_path(app) %>
+    <%= link_to app.condition, appointment_path(app) %>
     <br>
 <% end %>
